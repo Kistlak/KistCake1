@@ -148,21 +148,7 @@ public class Contact extends HttpServlet {
         }
         // End Of The Send Button
         
-        String Print_Name = request.getParameter("name");
-        
-        response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet JSP_Servlet_Encap</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1> <center> Your Message Has Been Sent " + Print_Name + "</h1></center>"); 
-            out.println("</body>");
-            out.println("</html>");
-        }
+       response.sendRedirect("ContactOK.jsp");
         
     }
 
