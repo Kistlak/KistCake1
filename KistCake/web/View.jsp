@@ -74,6 +74,11 @@
             
          %>
         <h2><center>Customer Feedbacks</center></h2><hr>
+        
+        <form action="Delete" method="POST" style="text-align: left;"> 
+            ID : <input type="text" name="id"> &nbsp; <input type="submit" class="btn btn-primary m-t-10" value="Delete"/> 
+        </form> <br>
+        
     <center>
         <table class="table table-bordered">
             <tbody>
@@ -91,7 +96,8 @@
                     <td><%= rs.getString("email") %></td>
                     <td><%= rs.getString("num") %></td>
                     <td><%= rs.getString("msg") %></td>
-                    <td><button>Delete</button></td>
+                    <td><a href="Update.jsp?id=<%=rs.getString("id")%>">Update</a></td>
+                    <td><a href="Delete?id=<%=rs.getString("id")%>">Delete</a></td>
                     <% } %>
                 </tr>
             </tbody>
