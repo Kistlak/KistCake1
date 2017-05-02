@@ -1,0 +1,72 @@
+.rg-fr{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    
+}
+.btn-aln{
+    float:right;
+}
+.groove{
+    border-style: groove;
+    padding: 30px;
+}
+.ad-cont{
+    background: #969696;
+}
+.left-cont{
+    padding-left: 50px;
+    margin-left: 100px;
+}
+.MyShop-admin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.my-col{
+    padding-top: 30px;
+}
+.bdy-col{
+    background: #e9eaec;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.MyShop-navBar{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: white;
+}
+.MyShop-navBar .navbar-nav>.active>a{
+  background: #3498db;
+  color: white;
+}
+.myclass{
+  margin-right: 20px;
+  border-right: 1px solid #969696;
+}
+.mycart-btn{
+  background: #3698db;
+  color: white;
+  border-radius: 3px;
+}
+.myslider{
+  background: #E4E4E4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.my-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.my-content .it-img{
+  margin-bottom: 20px;
+
+}
+.my-footer{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: #202020;
+  color: white;
+}
+.prod{
+  margin-top: 8px;
+  
+}
